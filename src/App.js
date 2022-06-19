@@ -5,7 +5,7 @@ import MovieRow from "./components/MovieRow";
 import FeaturedMovie from "./components/FeaturedMovie";
 import Header from "./components/Header";
 
-export default () => {
+export default ({data}) => {
   const [movieList, setMovieList] = useState([]);
   const [featureData, setFeatureData] = useState(null);
   const [blackHeader, setBlackHeader] = useState(false);
